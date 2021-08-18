@@ -6,9 +6,12 @@
 		font-family: 'Montserrat Alternates', sans-serif;
 	}
 	body{
+		overflow: overlay; 
 		background: url(https://www.xtrafondos.com/wallpapers/hexagonos-colores-pastel-7952.jpg);
 		background-size: 100vw 100vh;
 		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 	.capa{
 		position: fixed;
@@ -120,3 +123,38 @@
 		font-size: 18px;
 	}
 	/*Fin de Menù lateral*/
+
+	body{
+
+		padding: auto;
+		margin: 100px 60px;
+	}
+
+	#texto{
+		border: solid black;
+	}
+
+	#contenedor{
+		padding-top: 50px;
+	}
+	h1{
+		
+		font-size: 28px;
+		padding-bottom: 20px;
+	}
+	footer{
+		text-align: center;
+	}
+
+	#foto{
+		border-radius: 30px;
+	}
+
+	#valorant{
+		border-radius: 20px;
+	}
+
+
+	#pie{
+		 margin-top: 900px;
+	}
